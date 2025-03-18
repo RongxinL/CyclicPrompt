@@ -66,7 +66,7 @@ network_g:
 
 # path
 path:
-  pretrain_network_g: /path/to/model_weigths/
+  pretrain_network_g: /path/to/model_weigths/  # weights/allweather/net_g_730000.pth
   strict_load_g: true
   param_key: params_ema
   resume_state: ~
