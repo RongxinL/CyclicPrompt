@@ -2,7 +2,7 @@
 
 
 [**Prompt to Restore, Restore to Prompt: Cyclic
-Prompting for Universal Adverse Weather Removal**]() 
+Prompting for Universal Adverse Weather Removal**](https://www.arxiv.org/abs/2503.09013) 
 
 CyclicPrompt is an innovative cyclic prompt approach designed to enhance the effectiveness, adaptability, and generalizability of UAWR. 
 
