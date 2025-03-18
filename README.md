@@ -47,7 +47,10 @@ python setup.py develop --no_cuda_ext
 | Low Light| [Rain100L](https://www.icst.pku.edu.cn/struct/Projects/joint_rain_removal.html)+[SOTS](https://sites.google.com/view/reside-dehaze-datasets/reside-v0)+[WED/BSD400](https://www2.eecs.berkeley.edu/Research/Projects/CS/vision/bsds/)+[LOL](https://daooshee.github.io/BMVC2018website/)+[GoPro](https://seungjunnah.github.io/Datasets/gopro.html) | [LOL](https://daooshee.github.io/BMVC2018website/) |
 
 
-## Train
+## 🚀 Usage
+The model weight can be downloaded from [Model weights](https://drive.google.com/file/d/1S7RLqnwhNG1cdwvDmAyrsbWaQ1F57XOg/view?usp=drive_link)
+
+### Train
 
 1. generating csv file for trainning and testing by
       python scripts/get_caption.py
@@ -61,13 +64,20 @@ gt_path	lq_path	caption	degradation
 
 2. run python basicsr/train.py -opt train.yml
 
-## Test
+### Test
 ```
 python basicsr/train.py -opt test.yml
 ```
 
-<!-- ## Citation -->
-
+## Citation
+```
+@article{liao2025prompt,
+  title={Prompt to Restore, Restore to Prompt: Cyclic Prompting for Universal Adverse Weather Removal},
+  author={Liao, Rongxin and Li, Feng and Wei, Yanyan and Shi, Zenglin and Zhang, Le and Bai, Huihui and Wang, Meng},
+  journal={arXiv preprint arXiv:2503.09013},
+  year={2025}
+}
+```
 
 ## Thanks
-The code references [Restormer]() and based on [BasicSR](). Thanks for these excellent works! 
+The code references [Restormer](https://github.com/swz30/Restormer) and based on [BasicSR](https://github.com/XPixelGroup/BasicSR). Thanks for these excellent works! 
